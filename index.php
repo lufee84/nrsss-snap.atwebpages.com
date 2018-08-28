@@ -23,7 +23,7 @@
 			<button onclick="window.location.href='user_login.php?letter_group=MNO'" class="letters row2" id="mno">M N O</button>
 			<button onclick="window.location.href='user_login.php?letter_group=PQRS'" class="letters row2" id="pqrs">P Q R S</button>
 			<button onclick="window.location.href='user_login.php?letter_group=TUV'" class="letters row2" id="tuv">T U V</button>
-			<button onclick="window.location.href='user_login.php?letter_group=WXYZ'" class="letters row2" id="wxyz">W X Y ZZ</button>
+			<button onclick="window.location.href='user_login.php?letter_group=WXYZ'" class="letters row2" id="wxyz">W X Y Z</button>
 		</div>
 	</section>
 	<script type="text/javascript" src="js/user_login_letter.js"></script>
