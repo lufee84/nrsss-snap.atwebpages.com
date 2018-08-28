@@ -1,0 +1,70 @@
+/*
+QUT Capstone Project 2017
+Project Owner: Nursery Road State Special School
+
+SNAP - Social Networking Action Platform
+
+Author: Robert Piper
+Author: Heath Mayocchi
+Author: Levinard Hugo
+Author: David Mackenzie
+*/
+
+.wrapper {
+	background-color: #E0E0E0;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	margin-left: 50px;
+	margin-right: auto;
+	width: 1100px; /* 1100 */
+	height: 710px;
+}
+.button { 
+	background: teal;
+	color: #000;
+	cursor: pointer;
+	height: 45px;
+	width: 125px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.button:focus {
+	background-color: #ff6b6b;
+	height: 65px;
+	width: 145px;
+	font-weight: bold;
+	font-size: 25px;
+	outline: none;	
+}
+.imageButton{
+	background-color: transparent;
+	border: none;	
+}
+#back_btn {
+	float: left;
+	margin-right: -122px;
+}
+#back_btn:focus {
+	float: left;
+	margin-right: -142px;
+	margin-bottom: -20px;
+}
+#user_profile {
+	margin-right: 10px;
+}
+
+#user_profile p {
+	float: right;
+	margin-top: -10px;
+	margin-right: 5px;
+	clear: left;
+}
+#user_profile img {
+	width: 65px;
+	height: 65px;
+	border-radius: 5px;
+	float: right;
+	margin-top: -50px;
+	clear: left;
+}
