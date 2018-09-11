@@ -26,11 +26,17 @@ Author: David Mackenzie
 
 <!DOCTYPE html>
 
+
 <html lang="en">
+<!-- Include Menu -->
+<?php include "./menu.php"; ?>
+<!-- Include Menu -->
+
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/view_feed.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<script src="js/main.js" type="text/javascript"></script>
 	<script src="js/load.js" type="text/javascript"></script>
 	<?php if(isset($_SESSION['postID'])) {
@@ -49,7 +55,7 @@ Author: David Mackenzie
 	</head>
 	<body class="wrapper">
 		<header>
-			<button class="button" id="back_btn" onclick="backBtn()" onkeyup="feedBtnBack(event)">Back</button>
+			<button class="button" id="back_btn" onclick="backBtn()" onkeyup="feedBtnBack(event)">BACK</button>
 			<div id="user_profile">
 				<img src="<?php echo $_SESSION['userPic'] ?>" alt="User profile image"></img>
 				<p><?php echo $_SESSION['userFullName']; ?></p>

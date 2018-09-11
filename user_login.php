@@ -18,12 +18,13 @@ Author: David Mackenzie
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/user_home.css">	
 	<link rel="stylesheet" type="text/css" href="css/user_login.css">
-	<script src="js/user_login.js" type="text/javascript"></script>
+    <script src="js/user_login.js" type="text/javascript"></script>
 	<title>SNAP SELECT USER</title>
 </head>
 <body class="wrapper">

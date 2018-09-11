@@ -31,12 +31,19 @@ Author: David Mackenzie
 
 <!DOCTYPE html>
 
+
 <html lang="en">
+<!-- Include Menu -->
+<?php include "./menu.php"; ?>
+<!-- Include Menu -->
+
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/user_home.css">
-	<title>SNAP HOME</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <title>SNAP HOME</title>
 </head>
 <body class="wrapper">
 	<header>

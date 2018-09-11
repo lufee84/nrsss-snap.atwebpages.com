@@ -27,13 +27,13 @@ USER HOME PAGE
 	font-size: 40px;	
 }
 #logout_btn {
-	float: left;
-	margin-right: -122px;
+	float: right;
+	margin-right: -722px;    /* -122 */
 }
 #logout_btn:focus {  
-	float: left;
-	margin-right: -142px;
-	margin-bottom: -20px;
+	float: right;
+	margin-right: -722px;    /* -142 */
+	margin-bottom: -20px;     /* -20 */
 }
 
 #view_feed_btn {
@@ -45,7 +45,7 @@ USER HOME PAGE
 }
 
 #create_post_btn {
-	margin-left: 200px; /* 450 */
+	margin-left: 450px; /* 450 */
 }
 #create_post_btn:focus {
 	margin-left: 430px;
@@ -53,7 +53,7 @@ USER HOME PAGE
 }
 
 #friends_btn {
-	margin-left: 870px;
+	margin-left: 870px; /* 870 */
 }
 #friends_btn:focus {
 	margin-left: 850px;

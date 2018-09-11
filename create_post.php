@@ -19,6 +19,9 @@ Author: David MacKenzie
 -->
 <!DOCTYPE html>
 <html lang="en">
+<!-- Include Menu -->
+<?php include "./menu.php"; ?>
+<!-- Include Menu -->
 <head>
 	<meta charset="utf-8"/>
 	<title>SNAP CREATE A POST</title>
@@ -26,6 +29,8 @@ Author: David MacKenzie
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/postPreview.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 </head>
 <body class="wrapper">
 	<!--
