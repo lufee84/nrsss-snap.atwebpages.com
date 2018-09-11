@@ -18,10 +18,6 @@ Project Owner: Nursery Road State Special School
 
 SNAP - Social Networking Action Platform
 
-Author: Robert Piper
-Author: Heath Mayocchi
-Author: Levinard Hugo
-Author: David Mackenzie	
 -->
 
 <!DOCTYPE html>
@@ -51,7 +47,7 @@ Author: David Mackenzie
 		echo "loadFeed(str);";
 		echo "</script>";
 	} ?>
-	<title>SNAP FEED</title>
+	<title>EVENTS</title>
 	</head>
 	<body class="wrapper">
 		<header>
@@ -60,7 +56,7 @@ Author: David Mackenzie
 				<img src="<?php echo $_SESSION['userPic'] ?>" alt="User profile image"></img>
 				<p><?php echo $_SESSION['userFullName']; ?></p>
 			</div>
-			<h2>NEWS FEED</h2>
+			<h2>EVENTS</h2>
 		</header>
 	<section>
 		<div id="post_view"><b>Person info will be listed here...</b></div>

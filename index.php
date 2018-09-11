@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- Include Menu -->
-<?php include "./menu.php"; ?>
-<!-- Include Menu -->
 <head>
 	<title>SNAP LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="css/user_login_letter.css">

@@ -92,7 +92,7 @@ Author: David MacKenzie
 			<button class="button" id="postCommentButton" onkeydown="postCommentButton(event)">Comment</button>
 			<button class="button" id="pictureBtn" onkeydown="postpictureButton(event)" autofocus>Picture</button>
 			<button class="button" id="reactButtonPost" onkeydown="postSubmitButton(event)">Submit</button>
-		</div>
+        </div>
 	</footer>
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="js/postPreview.js"></script>
